@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+  --background-image-mountain-bg: url("/bg-mountain.png");
+}
+
+body {
+  margin: 0;
+}
