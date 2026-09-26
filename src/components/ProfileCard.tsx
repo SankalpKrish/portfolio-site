@@ -56,6 +56,17 @@ export default function ProfileCard() {
                   </a>
                 ))}
               </div>
+              <div className="mt-4 pt-4 border-t border-white/10">
+                <a
+                  href="https://tui.sankalpkrish.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative overflow-hidden bg-white/10 border border-white/20 text-[#F7F4EB] font-bold rounded-lg py-3 px-4 transition-[background-color,border-color,box-shadow,font-family] duration-500 flex items-center justify-center gap-2 hover:bg-[#11111b] hover:text-[#cba6f7] hover:font-mono hover:animate-ultracode-pulse ultracode-grain"
+                >
+                  TUI (old page)
+                  <span className="inline-block w-2 opacity-0 group-hover:opacity-100 group-hover:animate-blink text-[#cba6f7] transition-opacity duration-300">_</span>
+                </a>
+              </div>
           </div>
         </div>
       </div>
